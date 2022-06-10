@@ -1,0 +1,72 @@
+body{
+    background-color: lightseagreen;
+}
+
+h1{
+    color:blueviolet;
+}
+  
+h2{
+   color:black;
+}
+
+#menu-bar{
+    width: 100%;
+    height: 20px;
+    padding: 12px;
+    background-color:blue;
+    display: block;
+
+}
+
+#menu-bar a{
+    color:darkorchid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800px;
+    padding-left: 30px;
+    padding-right: 10px;
+
+}
+
+#menu-bar a:hover{
+    color:darksalmon;
+}
+     
+table{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    border-color:darksalmon;
+
+}
+p {
+    color:black;
+    font: size 20px;
+    font-weight: 400;
+}
+/*============ TOP-TABS =============*/
+
+#tabs-top{
+    position:fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: lightblue;
+}
+
+#tabs-top a{
+    float   : left;
+    display : block;
+    width   : 33%;
+    height  :35px;
+    font-weight : 700;
+    color       : white;
+    text-align  : center;
+    text-decoration : none;
+    padding-top     : 12px; 
+}
